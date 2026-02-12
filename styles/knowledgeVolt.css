@@ -8,8 +8,8 @@
 /* shared */
 
 .font-inter {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 
 }
 
@@ -38,6 +38,31 @@
     cursor: pointer;
 }
 
+.heading {
+    justify-items: center;
+}
+
+.heading h1 {
+    padding-top: 60px;
+    font-size: 48px;
+    align-items: center;
+    line-height: 58px;
+}
+
+.heading p {
+    padding-top: 16px;
+    align-items: center;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+.red-class{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 360px;
+    padding: 14px;
+}
 /* main */
 
 header {
@@ -158,7 +183,87 @@ nav .menu a {
     gap: 16px;
 }
 
-/* #note{
-    margin: 0 120px;
+#note .note-container {
+    margin: 0 120px 120px 120px;
     justify-items: center;
-} */
+}
+#note .note-container .note-info{
+        display: flex;
+        margin-top: 44px;
+        gap: 24px;
+
+    justify-content: space-around;
+}
+#note .note-container .note-info .info-card {
+        /* border: 1px solid red; */
+        justify-items: center;
+        padding: 70px 24px;
+        border-radius: 8px;  
+        max-width: 322px;
+        box-shadow: 0 6px 40px 0 #00000019;  
+}
+
+#note .note-container .note-info .info-card div{
+   margin-bottom: 16px;
+}
+#note .note-container .note-info .info-card h3{
+   font-size: 24px;
+   text-align: center;
+   font-weight: 600;
+   line-height: 29px;
+
+
+}
+ .note-info .info-card p{
+    padding-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+
+#solution{
+    /* background-color: #76cc9a; */
+ justify-items: center;
+ /* padding: 120px; */
+  margin: 120px;
+}
+
+#solution .sol-container{
+  width: 1360px;
+}
+
+#solution .sol-container .sol-info{
+ display: flex;
+ gap: 60px;
+ align-items: center;
+
+}
+.sol-info .info-elements .title{
+ color: #30B868;
+ padding-bottom: 16px;
+ font-weight:500;
+ line-height: 20px;
+
+}
+
+.sol-info .info-elements .info-heading h1{
+    font-size: 48px;
+    align-items: center;
+    line-height: 58px;
+    padding-bottom: 16px;
+}
+.sol-info .info-elements .info-heading p{
+    align-items: center;
+    color: #627382;
+    line-height: 20px;
+}
+.sol-info .info-elements .info-checkmark{
+    padding-top: 40px;
+}
+.sol-info .info-elements .info-checkmark .points{
+  display: flex;
+  gap: 6px;
+  padding-bottom: 16px;
+}
