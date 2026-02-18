@@ -22,7 +22,16 @@
     font-weight: 600;
     color: #FFFFFF;
     cursor: pointer;
-
+    text-align: center;
+    cursor: pointer;
+        transition: transform 0.35s ease, 
+                box-shadow 0.35s ease,
+                background-color 0.35s ease,
+                color 0.35s ease;
+}
+.btn:hover {
+ transform: scale(1.04); /* softer zoom */
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.107);
 }
 
 .btn2 {
@@ -36,8 +45,15 @@
     color: #FFFFFF;
     background: transparent;
     cursor: pointer;
+        transition: transform 0.35s ease, 
+                box-shadow 0.35s ease,
+                background-color 0.35s ease,
+                color 0.35s ease;
 }
-
+.btn2:hover {
+    transform: scale(1.04); /* softer zoom */
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.123);
+}
 .heading {
     justify-items: center;
 }
@@ -290,4 +306,53 @@ nav .menu a {
     padding-top: 16px;
     color: #627382;
 
+}
+footer{
+   background-color: #001931;
+   padding: 120px 120px 30px 120px;
+ 
+    
+}
+footer .footer-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    
+
+}
+footer .footer-container .footer-container-elements{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-container-elements img{
+    height: 60px;
+    width: 140px;
+  
+}
+.footer-container-elements .contact-info{
+     
+    padding-bottom: 80px;
+}
+.footer-container-elements .contact-info p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 16px;
+
+}
+.footer-container-elements .contact-info .link{
+    color: #FFFFFF;
+    display: flex;
+    gap: 16px;
+}
+.footer-container-elements .contact-info .link i{
+cursor: pointer;
+}
+.footer-container .rights-reserved{
+   color: #FAFAFA;
+   justify-items: center;
+   border-top:1px solid rgba(220, 220, 220, 0.203) ;
+   padding-top: 30px;
 }
