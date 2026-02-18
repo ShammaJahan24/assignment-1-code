@@ -43,7 +43,6 @@
 }
 
 .heading h1 {
-    padding-top: 60px;
     font-size: 48px;
     align-items: center;
     line-height: 58px;
@@ -72,7 +71,10 @@ header {
 }
 
 nav {
-    margin: 24px 120px;
+    width: 85%;
+    max-width: 1360px;
+    padding: 24px 0;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,7 +106,6 @@ nav .menu a {
     background-position: center;
     background-size: cover;
     justify-items: center;
-
     vertical-align: middle;
 
 }
@@ -112,6 +113,8 @@ nav .menu a {
 #banner .banner-content {
     padding: 115px 120px 180px 120px;
     justify-items: center;
+    margin: 0 auto;
+
 }
 
 .banner-content .banner-title {
@@ -184,7 +187,7 @@ nav .menu a {
 }
 
 #note .note-container {
-    margin: 0 120px 120px 120px;
+    margin: 60px 120px 120px 120px;
     justify-items: center;
 }
 #note .note-container .note-info{
@@ -227,10 +230,10 @@ nav .menu a {
     /* background-color: #76cc9a; */
  justify-items: center;
  /* padding: 120px; */
-  margin: 120px;
+ 
 }
 
-#solution .sol-container{
+#solution .sol-container{ margin: 120px;
   width: 1360px;
 }
 
@@ -266,4 +269,25 @@ nav .menu a {
   display: flex;
   gap: 6px;
   padding-bottom: 16px;
+}
+
+#access{
+    /* background-color: #30B868; */
+    padding-bottom: 120px;
+}
+#access .access-container{
+    background-color: #F7F6F2;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+}
+#access .access-container .access-feature{
+    padding-top: 24px;
+}
+#access .access-container .access-feature p{
+    padding-top: 16px;
+    color: #627382;
+
 }
